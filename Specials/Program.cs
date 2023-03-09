@@ -26,12 +26,25 @@ namespace Specials
             Console.WriteLine(ulong.MinValue);
             Console.WriteLine(char.MaxValue);
             Console.WriteLine(char.MinValue);
+            Console.WriteLine(float.MaxValue);
+            Console.WriteLine(float.MinValue);
+            Console.WriteLine(double.MaxValue);
+            Console.WriteLine(double.MinValue);
+            Console.WriteLine(decimal.MaxValue);
+            Console.WriteLine(decimal.MinValue);
             Console.WriteLine(double.PositiveInfinity);
             Console.WriteLine(double.NegativeInfinity);
             Console.WriteLine(float.PositiveInfinity);
             Console.WriteLine(float.NegativeInfinity);
             Console.WriteLine(double.PositiveInfinity / double.PositiveInfinity);
             Console.WriteLine(float.NaN);
+            int x = sbyte.MaxValue;
+            Console.WriteLine((sbyte)(x+1));
+            int y = short.MaxValue;
+            Console.WriteLine((short)(y+1));
+            int z = byte.MaxValue;
+            Console.WriteLine((byte)(z+1));
+
         }
     }
 }
