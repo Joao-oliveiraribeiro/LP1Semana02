@@ -6,6 +6,7 @@ namespace Specials
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine("Hello, World!");
             Console.WriteLine(sbyte.MaxValue);
             Console.WriteLine(sbyte.MinValue);
@@ -25,6 +26,12 @@ namespace Specials
             Console.WriteLine(ulong.MinValue);
             Console.WriteLine(char.MaxValue);
             Console.WriteLine(char.MinValue);
+            Console.WriteLine(double.PositiveInfinity);
+            Console.WriteLine(double.NegativeInfinity);
+            Console.WriteLine(float.PositiveInfinity);
+            Console.WriteLine(float.NegativeInfinity);
+            Console.WriteLine(double.PositiveInfinity / double.PositiveInfinity);
+            Console.WriteLine(float.NaN);
         }
     }
 }
