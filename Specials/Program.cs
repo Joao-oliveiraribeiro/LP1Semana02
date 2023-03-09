@@ -44,6 +44,14 @@ namespace Specials
             Console.WriteLine((short)(y+1));
             int z = byte.MaxValue;
             Console.WriteLine((byte)(z+1));
+            double a = 2* double.MaxValue;
+            Console.WriteLine(a);
+            double b = double.MaxValue +1;
+            Console.WriteLine(b);
+            float c = 2* float.MaxValue;
+            Console.WriteLine(c);
+            float d = float.MaxValue;
+            Console.WriteLine((float)(d+1));
 
         }
     }
