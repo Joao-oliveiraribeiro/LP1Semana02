@@ -19,9 +19,10 @@ namespace ChatGPTMother
                     // Choose response
                     string response = question switch
                     {
-                        "What are you" => "Im a bot",
+                        "What are you?" => "Im a bot",
                         "What do you do?" => "I respond to questions",
-                        "How do I stop you?" => "Write EXIT", 
+                        "How do I stop you?" => "Write EXIT",
+                        "Are you evil?" => "Maybe! You got to find out!", 
                         _ => "I m too dumb to recognize that question",
                     };
                     Console.WriteLine(response);
