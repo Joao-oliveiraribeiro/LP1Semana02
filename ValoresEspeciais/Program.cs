@@ -23,6 +23,9 @@ namespace ValoresEspeciais
 
             Console.WriteLine(uint.MinValue);
             Console.WriteLine(uint.MaxValue);
+            uint maxUint = uint.MaxValue;
+            uint result = maxUint +1;
+            Console.WriteLine(result);
 
             Console.WriteLine(long.MinValue);
             Console.WriteLine(long.MaxValue);
