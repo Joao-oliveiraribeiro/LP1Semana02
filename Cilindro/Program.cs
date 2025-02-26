@@ -18,7 +18,9 @@ namespace Cilindro
 
             double Sa = 2 * Math.PI * r * (r + a);
 
+            Console.WriteLine ($"Volume do cilindro: {V:f3}");
 
+            Console.WriteLine ($"Area do cilindro: {Sa:f3}");
 
         }
     }
