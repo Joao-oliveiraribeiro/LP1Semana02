@@ -35,6 +35,12 @@ namespace ValoresEspeciais
 
             Console.WriteLine(float.MinValue);
             Console.WriteLine(float.MaxValue);
+            float maxfloat = float.MaxValue;
+            float result2 = 2*maxfloat;
+            Console.WriteLine(result2);
+            float result3 = maxfloat +1;
+            Console.WriteLine(result3);
+            Console.WriteLine("Hello");
 
             Console.WriteLine(double.MinValue);
             Console.WriteLine(double.MaxValue);
