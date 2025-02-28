@@ -23,5 +23,12 @@ namespace GuessTheNumber
                     Console.WriteLine($"You found the hidden number {input_number} after {tries} tries.");
                     cycle = false;
 
+                }
+                if(input_number < 0 || input_number >30)
+                    {
+                        Console.WriteLine("Numbers must be between 0 and 30. Try again.");
+                        tries++; 
+                        continue;
+                    }
 
 
