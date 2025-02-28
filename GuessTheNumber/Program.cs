@@ -42,10 +42,6 @@ namespace GuessTheNumber
                     tries++;
                     continue;
                 }
-
-
-
-
             }
         }
     }
