@@ -17,6 +17,11 @@ namespace GuessTheNumber
             {
                 Console.Write("Insert number: ");
                 int input_number = int.Parse(Console.ReadLine());
-            }
+
+                if(numberToGuess == input_number)
+                {
+                    Console.WriteLine($"You found the hidden number {input_number} after {tries} tries.");
+                    cycle = false;
+
 
 
