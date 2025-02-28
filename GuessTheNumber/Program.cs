@@ -30,5 +30,24 @@ namespace GuessTheNumber
                         tries++; 
                         continue;
                     }
+                if(numberToGuess > input_number)
+                    {
+                      Console.WriteLine($"The hidden number is higher than {input_number}. Try again.");
+                      tries++;
+                      continue;  
+                    }
+                if(numberToGuess < input_number)
+                    {
+                      Console.WriteLine($"The hidden number is lower than {input_number}. Try again.");
+                      tries++;
+                      continue;  
+                    }
 
+            
+
+                    
+                }
+            }
+        }
+    }
 
