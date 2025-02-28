@@ -38,7 +38,7 @@ namespace ChatGPTOne
                             Console.WriteLine("Não estou preparado para essa característica humana");
                             break;
 
-                        default;
+                        default:
                             Console.WriteLine("Não consigo responder a essa pergunta");
                             break;
 
