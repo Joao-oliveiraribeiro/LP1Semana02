@@ -24,7 +24,21 @@ namespace ChatGPTOne
                     {
                         case "Como estás?":
                         Console.WriteLine("Estou bem obrigado por perguntar");
-                        break
+                        break;
+
+                        case "O que és?":
+                        Console.WriteLine("Sou o bot concebido para tentar responder as suas questões");
+                        break;
+
+                        case "Em que linguagem corres?":
+                        Console.WriteLine("O meu código é feito em C#");
+                        break;
+
+                        case "Consegues dar opiniões?":
+                        Console.WriteLine("Não estou preparado para essa característica humana");
+                        break;
+
+                        
 
                          
                     }
